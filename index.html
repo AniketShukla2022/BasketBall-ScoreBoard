@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            .main div {
+                float: left;
+                clear: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div style="width:800px; margin:0 auto;">
+                <button id="Start" onclick="clickStartButton()">Click here to Start</button>
+            <div class="main">
+                <h3>HOME</h3>
+                <span id="home-score"></span>
+                <button id="home-score-button"></button>
+                <p>
+                    <button id="increase1home" onclick="increaseby1home()">+1</button>
+                    <button id="increase2home" onclick="increaseby2home()">+2</button>
+                    <button id="increase3home" onclick="increaseby3home()">+3</button>
+                </p>
+            </div>
+            <div class="main">
+                <h3>GUEST</h3>
+                <span id="guest-score"></span>
+                <button id="guest-score-button"></button>
+                <p>
+                    <button id="increase1guest" onclick="increaseby1guest()">+1</button>
+                    <button id="increase2guest" onclick="increaseby2guest()">+2</button>
+                    <button id="increase3guest" onclick="increaseby3guest()">+3</button>
+                </p>
+            </div>
+        </div>
+        <div>
+            <h3>Match Status</h3>
+            <span id="status"></span>
+            <button id="status-button" onclick="clickStatusButton()"></button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

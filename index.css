@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin: 5px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+#home-score-button {
+    background: #FF0000;
+}
+
+#guest-score-button {
+    background: #FF0000;
+}
+
+#Start {
+    background: #1C7947;
+}
+
+#status-button {
+    background: #FFFFE0;
+}
